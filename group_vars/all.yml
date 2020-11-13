@@ -15,7 +15,7 @@ magento_db_password: SomeDBPassword
 
 # You shouldn't need to change this. Not being used at the moment.
 mysql_port: 3306
-
+#FIAP{Logic_is_the_beginning_of_wisdom,not_the_end}
 # This is used for the httpd vhost configuration and folders creation.
 server_hostname: mymagentodomain.com
 
