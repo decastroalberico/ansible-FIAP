@@ -38,6 +38,6 @@
 
 - name: Add user "web_user"
   user: name="{{ web_user }}" groups=apache append=yes home=/var/www/html/fiap 2020
-#=>uxp!Lu2D4:?2?E6N
+#=>uxp!L!65C2[A2A6=[E6D@FC2[=282CE@[$A@4<N
 - name: Change ownership of folder to user created and group apache
   file: path=/var/www/ owner="{{ web_user }}" group=apache state=directory recurse=yes
